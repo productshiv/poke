@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,500;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+body {
+  background-color: #e3dfdc;
+  margin: 0;
+  min-width: 100%;
+  color: #00447c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.spp {
+  margin: 0;
+}
+
+.top-bar {
+  margin-left: 150px;
+  width: 100%;
+  gap: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.bolder {
+  font-family: 'Roboto Flex';
+  font-weight: 900;
+}
+
+.greet {
+  gap: -50px;
+  font-family: 'Roboto Flex';
+  display: flex;
+  font-weight: 200;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  font-size: 30px;
+  line-height: 0%;
+}
+.connect {
+  float: right;
+}
+.button {
+  font-family: 'Roboto Flex';
+  font-weight: 800;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  color: #00447c;
+}
+
+.button:hover {
+  background-color: #00447c;
+  color: #ffffff;
+}
+
+.nb {
+  background-color: #e3dfdc;
+}
+
+.nb:hover {
+  background-color: #00447c;
+  color: #e3dfdc;
+}
+
+.options {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.image {
+  height: 150px;
+}
+
+.option {
+  background-color: #ffffff;
+  display: flex;
+  gap: 15px;
+  padding: 50px;
+  width: 90px;
+  padding-bottom: 25px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
